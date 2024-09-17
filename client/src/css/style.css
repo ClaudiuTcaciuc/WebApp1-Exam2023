@@ -1,0 +1,382 @@
+.my-header {
+    background-color: purple;
+}
+
+.my-header .btn {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+    height: 10%;
+}
+
+.my-header .btn:hover {
+    background-color: rgb(85, 6, 85);
+    border-color: purple;
+}
+
+.my-svg {
+    filter: invert(100%);
+}
+
+.my-login-wrapper {
+    width: 100vw;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-login-form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: space-around;
+}
+
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+}
+
+.button-wrapper {
+    margin-bottom: 10px;
+}
+
+.fixed-bottom-right .btn {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+    border-radius: 40%;
+    height: 10%;
+}
+
+.fixed-bottom-right .btn:hover {
+    background-color: rgb(85, 6, 85);
+    border-color: purple;
+}
+
+.my-card {
+    transition: box-shadow 0.3s;
+}
+
+.my-card:hover {
+    transform: translate3d(-1px, -1px, -1px);
+    cursor: pointer;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.974), rgba(238, 220, 246, 0.956));
+}
+
+.my-card-list {
+    transition: box-shadow 0.3s;
+    background-image: linear-gradient(to top, rgba(207, 89, 89, 0), rgba(219, 183, 237, 0.5));
+}
+
+.my-card-list:hover {
+    transform: translate3d(-1px, -1px, -1px);
+    cursor: pointer;
+}
+
+.my-btn {
+    background-color: rgb(146, 63, 146);
+    border-color: rgb(254, 254, 254);
+}
+
+.my-btn-add-delete {
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #797474;
+    border-color: rgb(254, 254, 254);
+}
+
+.my-btn:hover {
+    background-color: rgb(85, 6, 85);
+    border-color: rgb(254, 254, 254);
+}
+
+.my-page-container {
+    padding: 20px;
+}
+
+.my-page-card {
+    margin-bottom: 20px;
+}
+
+.my-page-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.my-page-paragraph {
+    font-size: 16px;
+    color: #555;
+}
+
+.my-page-content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.author-info-container {
+    flex: 0 0 69%;
+    padding: 10px;
+
+}
+
+.my-page-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.my-card-container {
+    border: 0px solid #ccc;
+    padding: 0.6rem;
+    white-space: pre-wrap;
+}
+
+.my-card-container .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.my-card-container .card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.my-badge {
+    background-color: rgb(90, 12, 90) !important;
+    color: white;
+}
+
+.my-card-container-edit {
+    border: 0.1rem solid #ccc;
+    padding: 0.6rem;
+    min-width: 200px;
+    min-height: 100px;
+}
+
+.my-card-container-edit-empty {
+    border: 0.1rem solid #ccc;
+    padding: 0.6rem;
+    min-width: 200px;
+    min-height: 100px;
+    background-color: rgb(233, 241, 241);
+}
+
+.my-card-container-edit .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+
+.my-card-container-edit .card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.my-card-container-edit :hover {
+    border: none;
+    cursor: pointer;
+    background-color: rgb(237, 238, 238);
+}
+
+.my-card-container-edit-dnd {
+    background-color: rgb(237, 238, 238);
+    border: 0.1rem solid #ccc;
+    padding: 0.6rem;
+}
+
+.my-card-container-edit-dnd .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.my-card-container-edit-dnd .card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.my-svg-dnd {
+    position: absolute;
+    background-color: #eee9e9;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 25px;
+    border-radius: 29%;
+    padding: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hover-button-text {
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 27px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #6c6d6c;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hover-button-title {
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 94%;
+    transform: translate(-50%, -50%);
+    width: 27px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #6c6d6c;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hover-button-title:hover {
+    background-color: rgba(12, 60, 30, 0.603);
+}
+
+.hover-button-text:hover {
+    background-color: rgba(12, 60, 30, 0.603);
+}
+
+.hover-button-img {
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    width: 27px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #6c6d6c;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hover-button-img:hover {
+    background-color: rgba(12, 60, 30, 0.603);
+}
+
+.content-editable {
+    outline: none;
+    border: none;
+    overflow: hidden;
+    min-width: 200px;
+    min-height: 50px;
+    max-width: 100%;
+    cursor: text !important;
+}
+
+.hover-button-del {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    width: 27px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #797474;
+    border-color: rgb(254, 254, 254);
+}
+
+.hover-button-del:hover {
+    background-color: rgba(155, 9, 38, 0.939);
+    border-color: rgb(254, 254, 254);
+}
+
+.placeholder-text {
+    color: #a0a0a0;
+    font-style: italic;
+}
+
+.my-title-new {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.my-header-new {
+    font-size: 20px;
+}
+
+.my-paragraph-new {
+    font-size: 16px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.my-edit-title {
+    background-color: white;
+    border: none;
+}
+
+
+.my-edit-title:hover {
+    background-color: white;
+    border: none;
+    transform: translate(-1px, -1px);
+}
+
+.placeholder-text {
+    color: gray;
+    font-size: 12px;
+}
+
+.image-thumbnail {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.image-show {
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+}
+
+.image-carousel {
+    background-color: #971d1d !important;
+}
+
+.my-btn-mod {
+    background-color: #f8f9fa !important;
+    border: none;
+}
